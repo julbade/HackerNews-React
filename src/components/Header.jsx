@@ -27,10 +27,13 @@ function Header() {
             
         `}</style>
       <h3>Hacker News</h3>
-        <ul>
-            <li><Link to="/">new</Link></li>
-            <li><Link to="/">comment</Link></li>
-        </ul>
+      <ul>
+        <li><Link to="/">show</Link></li>
+        <li><Link to="/newpost">new</Link></li>
+        <li><Link to="/comment">comments</Link></li>
+        
+            
+      </ul>
     </div>
   );
 }
